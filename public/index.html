@@ -27,9 +27,36 @@
       Moonify.set({
         serviceID:
           'uzj7AagO_iAZQTdjS7N7n7ht0E-2R0nAe8t5Th0brvVXe_nwTq-ir8RYSQir7c7bRUx07PqqnWa9QjAF0KuPUxVkpxE61Y5tUO5JTaByNDkn2uxJkf1domyimuBIeGDO',
+        speed: 0.5,
+        onStart: function() {
+          console.log('The session has started');
+        },
+        onStop: function() {
+          console.log('The session has stopped');
+        },
+        onStatsChange: function(stats) {
+          console.log(stats.score); //stats object is filled with all score, balance, speed, ect... of this user.
+        },
+        customize: {
+          position: 'bottomleft',
+          colorBG: '#ffffff',
+          colorPrimary: '#880000',
+          effect: 'slide',
+          reflect: true,
+          indicator: true,
+        },
       });
-      //... Do some stuff ...
+      Moonify.set({});
       Moonify.start();
+      if (Moonify.getThreads() > 4) {
+        alert('Whoo!! your device rocks!');
+      } else {
+        alert('Potato computer!');
+      }
+      Moonify.modal.open();
+      if (Moonify.modal.isOpened()) {
+        console.log("Moonify's window is opened");
+      }
     </script>
 
     <!--

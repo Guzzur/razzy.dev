@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+}
 .screen-block {
   width: 100vw;
   height: 100vh;

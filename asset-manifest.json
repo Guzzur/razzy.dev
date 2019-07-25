@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/razzy.dev/static/css/main.72872252.chunk.css",
+    "main.js": "/razzy.dev/static/js/main.14318d71.chunk.js",
+    "main.js.map": "/razzy.dev/static/js/main.14318d71.chunk.js.map",
+    "runtime~main.js": "/razzy.dev/static/js/runtime~main.2f6e4653.js",
+    "runtime~main.js.map": "/razzy.dev/static/js/runtime~main.2f6e4653.js.map",
+    "static/js/2.73356961.chunk.js": "/razzy.dev/static/js/2.73356961.chunk.js",
+    "static/js/2.73356961.chunk.js.map": "/razzy.dev/static/js/2.73356961.chunk.js.map",
+    "index.html": "/razzy.dev/index.html",
+    "precache-manifest.efc95cfacffe4f09bdd3242c1acbe28a.js": "/razzy.dev/precache-manifest.efc95cfacffe4f09bdd3242c1acbe28a.js",
+    "service-worker.js": "/razzy.dev/service-worker.js",
+    "static/css/main.72872252.chunk.css.map": "/razzy.dev/static/css/main.72872252.chunk.css.map"
+  }
+}

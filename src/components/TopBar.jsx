@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Row, Card, Navbar } from 'react-bootstrap';
+import React, { Component } from "react";
+import { Row, Card, Navbar } from "react-bootstrap";
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -8,56 +8,57 @@ import {
   MDBNavLink,
   MDBCollapse,
   MDBContainer,
-  MDBHamburgerToggler,
-} from 'mdbreact';
+  MDBHamburgerToggler
+} from "mdbreact";
 
 class TopBar extends Component {
   state = {
     collapse1: false,
-    collapseID: '',
+    collapseID: ""
   };
 
-  toggleCollapse = (collapseID) => () => {
-    this.setState((prevState) => ({
-      collapseID: prevState.collapseID !== collapseID ? collapseID : '',
+  toggleCollapse = collapseID => () => {
+    this.setState(prevState => ({
+      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
     }));
   };
 
-  toggleSingleCollapse = (collapseId) => {
+  toggleSingleCollapse = collapseId => {
     this.setState({
       ...this.state,
-      [collapseId]: !this.state[collapseId],
+      [collapseId]: !this.state[collapseId]
     });
   };
 
   render() {
     return (
-      <Row className="w-100 p-0 m-0" style={{ maxWidth: '1200px' }}>
+      <Row className="w-100 p-0 m-0" style={{ maxWidth: "1200px" }}>
         <Card className="w-100">
           <Card.Body className="p-0 m-0">
             <MDBContainer>
               <MDBNavbar color="amber lighten-4" light>
                 <MDBContainer>
                   <MDBNavbarBrand>
-                    <MDBNavLink to="/" style={{ color: '#880000' }}>
-                      razzy<span style={{ fontSize: '0.6rem' }}>.dev</span>
+                    <MDBNavLink to="/" className="px-0" style={{ color: "#880000" }}>
+                      razzy<span style={{ fontSize: "0.6rem" }}>.dev</span>
                     </MDBNavLink>
                   </MDBNavbarBrand>
-                  <MDBHamburgerToggler
-                    color="#880000"
-                    id="hamburger1"
-                    onClick={() => this.toggleSingleCollapse('collapse1')}
-                  />
+                  <div
+                    style={{ cursor: "pointer" }}
+                    onClick={() => this.toggleSingleCollapse("collapse1")}
+                  >
+                    <MDBHamburgerToggler color="#880000" id="hamburger1" />
+                  </div>
                   <MDBCollapse isOpen={this.state.collapse1} navbar>
                     <MDBNavbarNav left>
-                      <MDBNavItem active>
-                        <MDBNavLink to="#!">Home</MDBNavLink>
+                      <MDBNavItem>
+                        <MDBNavLink to="/posts">Posts</MDBNavLink>
                       </MDBNavItem>
                       <MDBNavItem>
-                        <MDBNavLink to="#!">Link</MDBNavLink>
+                        <MDBNavLink to="/projects">Projects</MDBNavLink>
                       </MDBNavItem>
                       <MDBNavItem>
-                        <MDBNavLink to="#!">Profile</MDBNavLink>
+                        <MDBNavLink to="/about">About</MDBNavLink>
                       </MDBNavItem>
                     </MDBNavbarNav>
                   </MDBCollapse>

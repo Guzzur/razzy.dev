@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb91293fba6ce1facb2e52a0ee6df17b",
+    "revision": "abf254bd169f60c2fb2db6d15670089f",
     "url": "/razzy.dev/index.html"
   },
   {
-    "revision": "1de2f9a53686308792e3",
+    "revision": "8b5149eafbcb610b82b7",
     "url": "/razzy.dev/static/css/main.72872252.chunk.css"
   },
   {
-    "revision": "55faf7394f2f98e77918",
-    "url": "/razzy.dev/static/js/2.6b62c57a.chunk.js"
+    "revision": "f0be9a6e065e22a6faec",
+    "url": "/razzy.dev/static/js/2.fd2658d6.chunk.js"
   },
   {
-    "revision": "1de2f9a53686308792e3",
-    "url": "/razzy.dev/static/js/main.5ef74bdb.chunk.js"
+    "revision": "8b5149eafbcb610b82b7",
+    "url": "/razzy.dev/static/js/main.66fca137.chunk.js"
   },
   {
     "revision": "c3b0c903a9ead514a351",

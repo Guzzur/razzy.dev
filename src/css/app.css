@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+}
+
+.max-width-containter {
+  max-width: 45rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.top-bar-container {
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  z-index: 1080;
+  border-bottom: 1px #fafafa solid;
+}
+
+.footer-container {
+  border-top: 1px #fafafa solid;
+  height: 4rem;
+  padding: 0;
+}
+
+.fill-height {
+  min-height: calc(100vh - 4rem);
+  margin-top: 4rem;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

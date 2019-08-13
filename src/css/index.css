@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+h5 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}

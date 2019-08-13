@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #c73030;
+  --secondary-color: #fa3939;
+  --third-color: #882525;
+  --fourth-color: #727272;
+  --fifth-color: #ffffff;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--third-color);
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--fifth-color);
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+.third {
+  color: var(--third-color);
+}
+
+.fourth {
+  color: var(--fourth-color);
+}

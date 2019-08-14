@@ -13,7 +13,8 @@ class AboutMe extends React.Component {
             src={"https://avatars2.githubusercontent.com/u/6122352?s=460&v=4"}
             alt="It's a me!"
             style={{
-              maxWidth: "25%",
+              width: "25%",
+              minWidth: "150px",
               border: "5px #ffffff solid",
               borderRadius: "100%",
               boxShadow: "0px 0px 5px 0px rgba(0, 0, 0, 0.2)"
@@ -22,8 +23,8 @@ class AboutMe extends React.Component {
         </div>
 
         <div className="text-center mt-4" style={{ fontSize: "0.8rem" }}>
-          <h1 className="text-dark">Hi there!</h1>
-          <h1 className="text-dark">I'm Felix Razykov</h1>
+          <h1 className="text">Hi there!</h1>
+          <h3 className="text mb-4">I'm Felix Razykov</h3>
           <a href="mailto:frazykov@gmail.com">
             <div className="mt-1">
               <FontAwesomeIcon icon={faEnvelope} className="mr-1" /> frazykov 'at' gmail.com

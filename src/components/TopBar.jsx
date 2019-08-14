@@ -22,7 +22,7 @@ class TopBar extends React.Component {
                 onClick={this.props.toggleMenu}
               >
                 <FontAwesomeIcon
-                  className="primary"
+                  className="link"
                   icon={showMenu ? faTimes : faBars}
                   style={{ marginRight: showMenu ? "1.5rem" : "1.2rem" }}
                 />

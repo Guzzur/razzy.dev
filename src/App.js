@@ -1,6 +1,6 @@
 import React from "react";
-import { connect, Provider } from "react-redux";
-import { BrowserRouter as Router, Route, Switch, Redirect, withRouter } from "react-router-dom";
+import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
 
 import "./css/app.css";
 import "./css/theme.css";

@@ -5,19 +5,32 @@
   --fourth-color: #727272;
   --fifth-color: #ffffff; */
 
-  --primary-color: #853044;
+  /* --primary-color: #853044;
   --secondary-color: #da4f70;
   --third-color: #da4f70;
   --fourth-color: #727272;
+  --fifth-color: #ffffff; */
+
+  --primary-color: rgb(0, 103, 163);
+  --secondary-color: #0084d1;
+  --third-color: #0084d1;
+  --fourth-color: #727272;
   --fifth-color: #ffffff;
+  --text-color: #6a6a6a;
+  --link-color: #000000;
+  --link-hover-color: #6a6a6a;
+}
+
+body {
+  color: var(--text-color);
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--link-color);
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: var(--link-hover-color);
   text-decoration: none;
 }
 
@@ -52,4 +65,12 @@ h5 {
 
 .fourth {
   color: var(--fourth-color);
+}
+
+.link {
+  color: var(--link-color);
+}
+
+.text {
+  color: var(--text-color);
 }

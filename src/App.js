@@ -1,19 +1,36 @@
 import React from "react";
+import { connect, Provider } from "react-redux";
+import { BrowserRouter as Router, Route, Switch, Redirect, withRouter } from "react-router-dom";
+
 import "./css/app.css";
 import "./css/theme.css";
 
 import TopBar from "./components/TopBar";
 import AppBody from "./components/AppBody";
+import Menu from "./components/Menu";
 // import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app bg-light">
       <TopBar />
-      <AppBody />
+      <AppBody>
+        <Menu />
+      </AppBody>
       {/* <Footer /> */}
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => ({
+  ...state
+});
+
+const mapDispatchToProps = {};
+
+export default withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(App)
+);

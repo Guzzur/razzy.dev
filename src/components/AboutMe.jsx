@@ -53,15 +53,15 @@ class AboutMe extends React.Component {
         <div className="mt-4">
           <h3>Skills</h3>
           <div>
-            2 years of experience in web development, using mostly React.JS, Node.JS and Python,
+            2 years of experience in web development, using mostly React.JS, Node.JS and Python.
           </div>
           <div>
             6 years of experience in object oriented design, programming and integration using C++
-            and C#
+            and C#.
           </div>
           <div>
             Experience in low-level programming and debugging on several platforms (Linux, Windows,
-            vxWorks)
+            vxWorks).
           </div>
         </div>
 
@@ -80,26 +80,29 @@ class AboutMe extends React.Component {
 
         <div className="mt-4">
           <h3>Career snapshot</h3>
-          <h5 className="mt-0">2019 – Current Software developer (Wallpex LTD.)</h5>
+          <div className="font-weight-bold">2019 Software developer (Wallpex LTD.)</div>
           <div>Developing in React and Node.js</div>
-          <h5>2017 – 2019 Software developer (Cyber division, ELTA Systems LTD., IAI)</h5>
+          <div className="mt-4 font-weight-bold">
+            2017 – 2019 Software developer (Cyber division, ELTA Systems)
+          </div>
           <div>Developing in React, Node.js and Python</div>
           <div>Documentation (requirements, design, API docs etc.)</div>
-          <h5>
-            2013 –2017 Software project manager and integrator (Radar division, ELTA Systems LTD.,
-            IAI)
-          </h5>
+          <div className="mt-4 font-weight-bold">
+            2013 –2017 Software project manager and integrator (Radar division, ELTA Systems)
+          </div>
           <div>Developing in C/C++, C#, Python</div>
           <div>Multi processing, cross platform software integration</div>
           <div>Documentation (requirements, design, APIs etc.)</div>
           <div>Scripting using Perl, Bash/Csh</div>
-          <h5>2011 – 2013 Communication solutions team leader (Intelligence corps, IDF)</h5>
+          <div className="mt-4 font-weight-bold">
+            2011 – 2013 Communication solutions team leader (Intelligence corps, IDF)
+          </div>
           <div>Developing and customizing of encrypted communication solutions</div>
           <div>Securing and dissembling network usage and behavior</div>
           <div>Configuring servers running different operating systems</div>
-          <h5>
+          <div className="mt-4 font-weight-bold">
             2009 – 2011 Project Management Officer and QA team leader (Intelligence corps, IDF)
-          </h5>
+          </div>
           <div>Managing 10 QA and PM teams members</div>
           <div>Projects’ resources scheduling</div>
           <div>Testing of software and complete products in various disciplines</div>

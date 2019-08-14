@@ -1,7 +1,13 @@
 :root {
-  --primary-color: #c73030;
+  /* --primary-color: #c73030;
   --secondary-color: #fa3939;
   --third-color: #882525;
+  --fourth-color: #727272;
+  --fifth-color: #ffffff; */
+
+  --primary-color: #853044;
+  --secondary-color: #da4f70;
+  --third-color: #da4f70;
   --fourth-color: #727272;
   --fifth-color: #ffffff;
 }

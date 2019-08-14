@@ -1,13 +1,10 @@
+/* General */
+
 .app {
   min-height: 100vh;
 }
 
-.max-width-containter {
-  max-width: 45rem;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
-}
+/* Top Bar */
 
 .top-bar-container {
   height: 4rem;
@@ -17,10 +14,58 @@
   border-bottom: 1px #fafafa solid;
 }
 
+/* Footer */
+
 .footer-container {
   border-top: 1px #fafafa solid;
   height: 4rem;
   padding: 0;
+}
+
+/* Menu */
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-base {
+  position: fixed;
+  left: 0;
+  top: -4rem;
+  z-index: 1100;
+  min-width: 100%;
+  min-height: 100;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  padding-left: calc((100vw - 45rem) / 2);
+  padding-right: calc((100vw - 45rem) / 2);
+}
+
+.menu-curtain {
+  background-color: black;
+  opacity: 0.2;
+  height: calc(100vh);
+}
+
+.menu-item {
+  background-color: #ffffff;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.3rem;
+  border-top: 1px #f0f0f0 solid;
+}
+
+/* Utils */
+
+.max-width-containter {
+  max-width: 45rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
 }
 
 .fill-height {
@@ -30,4 +75,8 @@
 
 .rotate-180 {
   transform: rotate(180deg);
+}
+
+.rotate-90-cw {
+  transform: rotate(90deg);
 }

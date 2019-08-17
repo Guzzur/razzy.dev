@@ -16,7 +16,7 @@ class AboutMe extends React.Component {
               width: "25%",
               minWidth: "150px",
               border: "5px #ffffff solid",
-              borderRadius: "100%",
+              borderRadius: "33%",
               boxShadow: "0px 0px 5px 0px rgba(0, 0, 0, 0.2)"
             }}
           />
@@ -74,9 +74,9 @@ class AboutMe extends React.Component {
 
         <div className="mt-4">
           <h3>Languages</h3>
-          <div>Hebrew (native)</div>
-          <div>Russian (native)</div>
-          <div>English (excellent written and good verbal skills)</div>
+          <div>Hebrew</div>
+          <div>English</div>
+          <div>Russian</div>
         </div>
 
         <div className="mt-4">

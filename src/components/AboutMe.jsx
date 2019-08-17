@@ -1,4 +1,6 @@
 import React from "react";
+import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -124,4 +126,15 @@ class AboutMe extends React.Component {
   }
 }
 
-export default AboutMe;
+const mapStateToProps = state => ({
+  ...state
+});
+
+const mapDispatchToProps = {};
+
+export default withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(AboutMe)
+);

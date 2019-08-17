@@ -16,7 +16,7 @@ class TopBar extends React.Component {
         <div className="reading-bar-container">
           <div
             className="reading-bar"
-            style={{ transform: "scaleX(" + this.props.yScrollPercent + ")" }}
+            style={{ transform: "scaleX(" + this.props.position + ")" }}
           />
         </div>
         <Row className="w-100 m-0 justify-content-center">
@@ -32,12 +32,6 @@ class TopBar extends React.Component {
                   icon={showMenu ? faTimes : faBars}
                   style={{ marginRight: showMenu ? "1.5rem" : "1.2rem" }}
                 />
-                {/* <span className="primary" style={{ position: "absolute", bottom: "0.075rem" }}>
-                  razzy.dev
-                </span> */}
-                {/* <span className="rotate-90-cw" style={{ position: "absolute", bottom: "0.5rem", fontSize: "0.6rem" }}>
-                  .dev
-                </span> */}
               </div>
             </div>
           </Col>

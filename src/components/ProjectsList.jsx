@@ -52,8 +52,7 @@ class ProjectsList extends React.Component {
             className="font-weight-light font-italic"
             style={{ opacity: 0.6, marginBottom: "2rem" }}
           >
-            True experience building platform. The only platform that lets you force your way into
-            the job you want entirely online
+            True experience building platform
           </div>
           <h5 className="mt-0 font-bold">Tech buzzwords</h5>
           <Buzzwords projectName="gigstart" words={["react", "redux", "node", "firebase"]} />

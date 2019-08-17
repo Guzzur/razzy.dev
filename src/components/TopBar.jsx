@@ -13,6 +13,12 @@ class TopBar extends React.Component {
 
     return (
       <div className="w-100 m-0">
+        <div className="reading-bar-container">
+          <div
+            className="reading-bar"
+            style={{ transform: "scaleX(" + this.props.yScrollPercent + ")" }}
+          />
+        </div>
         <Row className="w-100 m-0 justify-content-center">
           <Col className="bg-white max-width-containter top-bar-container p-0 m-0">
             <div className="h-100 d-flex px-4 align-items-center">

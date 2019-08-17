@@ -10,7 +10,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 class ProjectsList extends React.Component {
   render() {
     return (
-      <div>
+      <div className="w-100">
         <h3 className="mb-4">My latest projects</h3>
 
         <div

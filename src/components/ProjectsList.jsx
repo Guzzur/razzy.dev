@@ -50,11 +50,10 @@ class ProjectsList extends React.Component {
           </h4>
           <div
             className="font-weight-light font-italic"
-            style={{ opacity: 0.6, marginBottom: "2rem" }}
+            style={{ opacity: 0.6, marginBottom: "0.8rem" }}
           >
             True experience building platform
           </div>
-          <h5 className="mt-0 font-bold">Tech buzzwords</h5>
           <Buzzwords projectName="gigstart" words={["react", "redux", "node", "firebase"]} />
         </div>
 
@@ -96,13 +95,11 @@ class ProjectsList extends React.Component {
           </h4>
           <div
             className="font-weight-light font-italic"
-            style={{ opacity: 0.6, marginBottom: "2rem" }}
+            style={{ opacity: 0.6, marginBottom: "0.8rem" }}
           >
             First e-wallet for gamers
           </div>
-          <h5 className="mt-0 font-bold">Tech buzzwords</h5>
-          <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo"]} />
-          <div />
+          <Buzzwords projectName="gigstart" words={["react", "redux", "node", "mongo"]} />
         </div>
 
         <div
@@ -141,11 +138,10 @@ class ProjectsList extends React.Component {
           </h4>
           <div
             className="font-weight-light font-italic"
-            style={{ opacity: 0.6, marginBottom: "2rem" }}
+            style={{ opacity: 0.6, marginBottom: "0.8rem" }}
           >
             Document to speech online converter
           </div>
-          <h5 className="mt-0 font-bold">Tech buzzwords</h5>
           <Buzzwords projectName="gigstart" words={["react", "redux", "node", "firebase"]} />
         </div>
       </div>

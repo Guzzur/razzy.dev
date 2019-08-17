@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
+import Buzzwords from "./Buzzwords";
+
 class AboutMe extends React.Component {
   render() {
     return (
@@ -83,13 +85,25 @@ class AboutMe extends React.Component {
 
         <div className="mt-4">
           <h3>Career snapshot</h3>
+          {/*  */}
           <div className="font-weight-bold">2019 Software developer (Wallpex LTD.)</div>
           <div>Developing in React and Node.js</div>
+          <div className="mt-2">
+            <Buzzwords projectName="gigstart" words={["react", "redux", "node", "mongo"]} />
+          </div>
+          {/*  */}
           <div className="mt-4 font-weight-bold">
             2017 – 2019 Software developer (Cyber division, ELTA Systems)
           </div>
           <div>Developing in React, Node.js and Python</div>
           <div>Documentation (requirements, design, API docs etc.)</div>
+          <div className="mt-2">
+            <Buzzwords
+              projectName="gigstart"
+              words={["react", "node", "mongo", "postgres", "python", "storybook"]}
+            />
+          </div>
+          {/*  */}
           <div className="mt-4 font-weight-bold">
             2013 –2017 Software project manager and integrator (Radar division, ELTA Systems)
           </div>
@@ -97,12 +111,20 @@ class AboutMe extends React.Component {
           <div>Multi processing, cross platform software integration</div>
           <div>Documentation (requirements, design, APIs etc.)</div>
           <div>Scripting using Perl, Bash/Csh</div>
+          <div className="mt-2">
+            <Buzzwords
+              projectName="gigstart"
+              words={["c/c++", "c#", "vxworks", "python", "pygtk", "qt", "wpf", "perl", "bash"]}
+            />
+          </div>
+          {/*  */}
           <div className="mt-4 font-weight-bold">
             2011 – 2013 Communication solutions team leader (Intelligence corps, IDF)
           </div>
           <div>Developing and customizing of encrypted communication solutions</div>
           <div>Securing and dissembling network usage and behavior</div>
           <div>Configuring servers running different operating systems</div>
+          {/*  */}
           <div className="mt-4 font-weight-bold">
             2009 – 2011 Project Management Officer and QA team leader (Intelligence corps, IDF)
           </div>

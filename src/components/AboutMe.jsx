@@ -86,14 +86,14 @@ class AboutMe extends React.Component {
         <div className="mt-4">
           <h3>Career snapshot</h3>
           {/*  */}
-          <div className="font-weight-bold">2019 Software developer (Wallpex LTD.)</div>
+          <div className="font-weight-bold">2019 Fullstack developer @ Wallpex LTD.</div>
           <div>Developing in React and Node.js</div>
           <div className="mt-2">
             <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo", "aws"]} />
           </div>
           {/*  */}
           <div className="mt-4 font-weight-bold">
-            2017 – 2019 Software developer (Cyber division, ELTA Systems)
+            2017 – 2019 Fullstack developer @ Cyber division, ELTA Systems
           </div>
           <div>Developing in React, Node.js and Python</div>
           <div>Documentation (requirements, design, API docs etc.)</div>
@@ -105,7 +105,7 @@ class AboutMe extends React.Component {
           </div>
           {/*  */}
           <div className="mt-4 font-weight-bold">
-            2013 –2017 Software project manager and integrator (Radar division, ELTA Systems)
+            2013 –2017 Software project manager and integrator @ Radar division, ELTA Systems
           </div>
           <div>Developing in C/C++, C#, Python</div>
           <div>Multi processing, cross platform software integration</div>
@@ -119,14 +119,14 @@ class AboutMe extends React.Component {
           </div>
           {/*  */}
           <div className="mt-4 font-weight-bold">
-            2011 – 2013 Communication solutions team leader (Intelligence corps, IDF)
+            2011 – 2013 Communication solutions team leader @ Intelligence corps, IDF
           </div>
           <div>Developing and customizing of encrypted communication solutions</div>
           <div>Securing and dissembling network usage and behavior</div>
           <div>Configuring servers running different operating systems</div>
           {/*  */}
           <div className="mt-4 font-weight-bold">
-            2009 – 2011 Project Management Officer and QA team leader (Intelligence corps, IDF)
+            2009 – 2011 Project Management Officer and QA team leader @ Intelligence corps, IDF
           </div>
           <div>Managing 10 QA and PM teams members</div>
           <div>Projects’ resources scheduling</div>

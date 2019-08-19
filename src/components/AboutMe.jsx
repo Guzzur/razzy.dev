@@ -89,7 +89,7 @@ class AboutMe extends React.Component {
           <div className="font-weight-bold">2019 Software developer (Wallpex LTD.)</div>
           <div>Developing in React and Node.js</div>
           <div className="mt-2">
-            <Buzzwords projectName="gigstart" words={["react", "redux", "node", "mongo"]} />
+            <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo", "aws"]} />
           </div>
           {/*  */}
           <div className="mt-4 font-weight-bold">

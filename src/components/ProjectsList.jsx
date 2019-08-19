@@ -99,7 +99,7 @@ class ProjectsList extends React.Component {
           >
             First e-wallet for gamers
           </div>
-          <Buzzwords projectName="gigstart" words={["react", "redux", "node", "mongo"]} />
+          <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo", "aws"]} />
         </div>
 
         <div
@@ -142,7 +142,7 @@ class ProjectsList extends React.Component {
           >
             Document to speech online converter
           </div>
-          <Buzzwords projectName="gigstart" words={["react", "redux", "node", "firebase"]} />
+          <Buzzwords projectName="readitto" words={["react", "redux", "node", "firebase"]} />
         </div>
       </div>
     );

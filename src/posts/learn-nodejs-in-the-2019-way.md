@@ -1,6 +1,8 @@
 ---
 title: "Learn Node.js in the 2019 way"
 tags: "til, nodejs, js"
+date: "2019-09-02"
+published: "false"
 ---
 
 # Learn Node.js in the 2019 way

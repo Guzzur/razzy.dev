@@ -58,7 +58,7 @@ class AboutMe extends React.Component {
         <div className="mt-4">
           <h3>Skills</h3>
           <div>
-            2 years of experience in web development, using mostly React.JS, Node.JS and Python.
+            3 years of experience in web development, using mostly React.JS, Node.JS and Python.
           </div>
           <div>
             6 years of experience in object oriented design, programming and integration using C++
@@ -86,7 +86,13 @@ class AboutMe extends React.Component {
         <div className="mt-4">
           <h3>Career snapshot</h3>
           {/*  */}
-          <div className="font-weight-bold">2019 Fullstack developer @ Wallpex LTD.</div>
+          <div className="font-weight-bold">Currently working as Senior Fullstack developer @ BigPanda</div>
+          <div>Developing in React and Node.js</div>
+          <div className="mt-2">
+            <Buzzwords projectName="wallpex" words={["react", "redux", "node", "kubernetes", "kafka"]} />
+          </div>       
+          {/*  */}
+          <div className="mt-4 font-weight-bold">2019 Fullstack developer @ Wallpex</div>
           <div>Developing in React and Node.js</div>
           <div className="mt-2">
             <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo", "aws"]} />

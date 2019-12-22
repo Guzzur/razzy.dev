@@ -59,6 +59,24 @@
   border-top: 1px #f0f0f0 solid;
 }
 
+/* Riddles */
+.riddle-code {
+
+}
+
+.riddle-code input {
+  width: 15rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+.riddle-code button {
+  width: 15rem;
+  height: 4rem;
+  border: 1px solid #cccccc;
+}
+
 /* Slideshow */
 
 .slideshow-container {

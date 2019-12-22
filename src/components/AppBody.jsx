@@ -3,12 +3,13 @@ import { Route, Switch } from "react-router-dom";
 
 import { Row, Col } from "react-bootstrap";
 
-import PostsList from "./PostsList";
+import Riddle from "./Riddle"
+// import PostsList from "./PostsList";
 import ProjectsList from "./ProjectsList";
 import AboutMe from "./AboutMe";
 
 class AppBody extends React.Component {
-  render() {
+  render() {    
     return (
       <div className="w-100 m-0">
         <Row className="w-100 m-0 justify-content-center">
@@ -17,7 +18,8 @@ class AppBody extends React.Component {
               {/* Menu comes here */}
               {this.props.children}
               <Switch>
-                <Route path="/posts" component={PostsList} />
+                {/* <Route path="/posts" component={PostsList} /> */}
+                <Route path="/riddles" component={Riddle} />
                 <Route path="/projects" component={ProjectsList} />
                 <Route path="/about" component={AboutMe} />
                 <Route component={AboutMe} />

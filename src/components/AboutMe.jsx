@@ -29,9 +29,9 @@ class AboutMe extends React.Component {
         <div className="text-center mt-4" style={{ fontSize: "0.8rem" }}>
           <h1 className="text">Hi there!</h1>
           <h3 className="text mb-4">I'm Felix Razykov</h3>
-          <a href="mailto:frazykov@gmail.com">
+          <a href="mailto:me@razzy.dev">
             <div className="mt-1">
-              <FontAwesomeIcon icon={faEnvelope} className="mr-1" /> frazykov 'at' gmail.com
+              <FontAwesomeIcon icon={faEnvelope} className="mr-1" /> me 'at' razzy.dev
             </div>
           </a>
           <a href="https://linkedin.com/in/felix-razykov" target="_blank" rel="noopener noreferrer">

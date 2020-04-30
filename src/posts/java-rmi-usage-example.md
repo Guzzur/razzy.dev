@@ -1,6 +1,6 @@
 ---
 title: "Java RMI (Remote Method Invocation) usage example"
-tags: "java rmi"
+tags: "java,rmi"
 date: "2018-12-10"
 published: "true"
 ---
@@ -249,4 +249,4 @@ One picture says it all.
 
 ## In conclusion
 
-The RMI library has not changed since 2004. Even the Carmine, the alternative, hasn't changes since 2014. Looks like the REST, SOAP and other language independent approaches have won this battle.
+The RMI library has not changed since 2004. Even the Carmine, the alternative, hasn't changed since 2014. Looks like the REST, SOAP and other language independent approaches won this battle.

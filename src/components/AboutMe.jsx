@@ -57,7 +57,7 @@ class AboutMe extends React.Component {
           <h3>Brief</h3>
           <div>
             Self-motivated and result-driven software developer, specializing in the development of
-            high complexity systems. Seeking a challenging position of exciting product creation at
+            high complexity systems. <pre className='d-inline'>⚪️ Seeking / 🔘 Found</pre> a challenging position of exciting product creation at
             a dynamic and growth oriented organization.
           </div>
         </div>

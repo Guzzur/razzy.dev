@@ -11,7 +11,7 @@ class ProjectsList extends React.Component {
   render() {
     return (
       <div className="w-100">
-        <h3 className="mb-4">My latest projects</h3>
+        <h3 className="mb-4">Projects</h3>
 
         <div
           style={{

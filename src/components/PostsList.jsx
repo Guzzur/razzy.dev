@@ -17,6 +17,7 @@ class PostsList extends React.Component {
     const { posts } = this.state;
     return (
       <div>
+        <h3>Posts</h3>
         { posts
             .filter(a => a.publish)
             .sort((a,b) => (a.date > b.date) ? -1 : ((b.date > a.date) ? 1 : 0))

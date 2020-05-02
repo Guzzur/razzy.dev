@@ -6,7 +6,7 @@ So it felt just right to measure how and what exactly I spend my time on. But me
 
 This is also my first public blog post ever, so please tear it apart! I’m happy to hear your suggestions on how to improve my writing.
 
-## Prerequisutes
+## Prerequisites
 
 Here's the list of prerequisites needed to be able to get your week's schedule dumped. Your week should look something like this dummy calendar:
 

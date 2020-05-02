@@ -117,6 +117,10 @@ function export_gcal_to_gsheet() {
 - Authorize in the popping up window
 - Wait, aaaand... done
 
+You should see the data dumped into `data` sheet:
+
+![Data dump](../../public/resources/visualize-table.png)
+
 ## Step 2: Visualize
 
 Add dashboard sheet, let's call it `dashboard`, and add some charts

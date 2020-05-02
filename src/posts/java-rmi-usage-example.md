@@ -1,10 +1,3 @@
----
-title: "Java RMI (Remote Method Invocation) usage example"
-tags: "java,rmi"
-date: "2018-12-10"
-published: "true"
----
-
 # Java RMI (Remote Method Invocation) usage example
 
 ## Introduction to RMI
@@ -71,11 +64,11 @@ public class Client {
 4. stub connects to the servers object's skeleton tcp
 5. server's method gets invoked
 
-![resources/java-rmi-usage-example-flow_1.PNG](resources/java-rmi-usage-example-flow_1.PNG)
+![../../public/resources/java-rmi-usage-example-flow_1.PNG](../../public/resources/java-rmi-usage-example-flow_1.PNG)
 
 ## Architecture
 
-![resources/java-rmi-usage-example-structure_1.PNG](resources/java-rmi-usage-example-structure_1.PNG)
+![../../public/resources/java-rmi-usage-example-structure_1.PNG](../../public/resources/java-rmi-usage-example-structure_1.PNG)
 
 - Remote Object
   - The server on which the methods will be invoked
@@ -92,7 +85,7 @@ public class Client {
 
 ## How does it work under the hood
 
-![resources/java-rmi-usage-example-architecture_1.PNG](resources/java-rmi-usage-example-architecture_1.PNG)
+![../../public/resources/java-rmi-usage-example-architecture_1.PNG](../../public/resources/java-rmi-usage-example-architecture_1.PNG)
 
 - The server implements a remote interface
 - Stub and skeleton being compiled
@@ -243,7 +236,7 @@ From https://www.infoworld.com/article/3275924/java/oracle-plans-to-dump-risky-j
 
 #### RMI vs REST vs Carmine (new Java alternative for RMI) vs SOAP
 
-![resources/java-rmi-usage-example-trends_1.PNG](resources/java-rmi-usage-example-trends_1.PNG)
+![../../public/resources/java-rmi-usage-example-trends_1.PNG](../../public/resources/java-rmi-usage-example-trends_1.PNG)
 
 One picture says it all.
 

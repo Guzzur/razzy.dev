@@ -38,6 +38,19 @@ a:active {
   color: var(--secondary-color);
 }
 
+#post a {
+  color: var(--secondary-color);
+}
+
+#post a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+#post a:active {
+  color: var(--link-hover-color);
+}
+
 h1,
 h2,
 h3,

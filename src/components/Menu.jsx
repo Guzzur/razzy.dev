@@ -7,7 +7,7 @@ import { closeMenu } from "../store/actions/ui";
 // import { Row, Col } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDice, faSuitcase, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import { faEdit, faDice, faSuitcase, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 
 class Menu extends React.Component {
   render() {
@@ -18,12 +18,18 @@ class Menu extends React.Component {
         onClick={this.props.closeMenu}
         style={{ display: show ? "block" : "none" }}
       >
-        {/* <Link to={"/posts"}>
+        <Link to={"/posts"}>
           <div className="menu-item">
             <FontAwesomeIcon icon={faEdit} className="mr-4" />
             Posts
           </div>
-        </Link> */}
+        </Link>
+        <Link to={"/projects"}>
+          <div className="menu-item">
+            <FontAwesomeIcon icon={faSuitcase} className="mr-4" />
+            Projects
+          </div>
+        </Link>
         <Link to={"/about"}>
           <div className="menu-item">
             <FontAwesomeIcon icon={faAddressCard} className="mr-4" />
@@ -36,12 +42,6 @@ class Menu extends React.Component {
             Riddles
           </div>
         </Link> */}
-        <Link to={"/projects"}>
-          <div className="menu-item">
-            <FontAwesomeIcon icon={faSuitcase} className="mr-4" />
-            Projects
-          </div>
-        </Link>
         <div className="menu-curtain" />
       </div>
     );

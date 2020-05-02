@@ -4,7 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 
 import Riddle from "./Riddle"
-// import PostsList from "./PostsList";
+import Post from "./Post";
+import PostsList from "./PostsList";
 import ProjectsList from "./ProjectsList";
 import AboutMe from "./AboutMe";
 
@@ -18,11 +19,12 @@ class AppBody extends React.Component {
               {/* Menu comes here */}
               {this.props.children}
               <Switch>
-                {/* <Route path="/posts" component={PostsList} /> */}
-                <Route path="/riddles" component={Riddle} />
+                <Route path="/posts/:postId" component={Post} />
+                <Route path="/posts" component={PostsList} />
+                {/* <Route path="/riddles" component={Riddle} /> */}
                 <Route path="/projects" component={ProjectsList} />
                 <Route path="/about" component={AboutMe} />
-                <Route component={AboutMe} />
+                <Route component={PostsList} />
               </Switch>
             </div>
           </Col>

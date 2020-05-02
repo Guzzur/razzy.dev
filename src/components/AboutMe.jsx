@@ -89,13 +89,17 @@ class AboutMe extends React.Component {
           <div className="font-weight-bold">Currently working as Senior Fullstack developer @ BigPanda</div>
           <div>Developing in React and Node.js</div>
           <div className="mt-2">
-            <Buzzwords projectName="wallpex" words={["react", "redux", "node", "kubernetes", "kafka"]} />
+            <Buzzwords
+              words={["react", "redux", "node", "kubernetes", "kafka"]}
+            />
           </div>       
           {/*  */}
           <div className="mt-4 font-weight-bold">2019 Fullstack developer @ Wallpex</div>
           <div>Developing in React and Node.js</div>
           <div className="mt-2">
-            <Buzzwords projectName="wallpex" words={["react", "redux", "node", "mongo", "aws"]} />
+            <Buzzwords
+              words={["react", "redux", "node", "mongo", "aws"]}
+            />
           </div>
           {/*  */}
           <div className="mt-4 font-weight-bold">
@@ -105,7 +109,6 @@ class AboutMe extends React.Component {
           <div>Documentation (requirements, design, API docs etc.)</div>
           <div className="mt-2">
             <Buzzwords
-              projectName="gigstart"
               words={["react", "node", "mongo", "postgres", "python", "storybook"]}
             />
           </div>
@@ -119,7 +122,6 @@ class AboutMe extends React.Component {
           <div>Scripting using Perl, Bash/Csh</div>
           <div className="mt-2">
             <Buzzwords
-              projectName="gigstart"
               words={["c/c++", "c#", "vxworks", "python", "pygtk", "qt", "wpf", "perl", "bash"]}
             />
           </div>

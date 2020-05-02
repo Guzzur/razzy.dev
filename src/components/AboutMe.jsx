@@ -3,8 +3,10 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faDev } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 
 import Buzzwords from "./Buzzwords";
 
@@ -29,21 +31,26 @@ class AboutMe extends React.Component {
         <div className="text-center mt-4" style={{ fontSize: "0.8rem" }}>
           <h1 className="text">Hi there!</h1>
           <h3 className="text mb-4">I'm Felix Razykov</h3>
-          <a href="mailto:me@razzy.dev">
-            <div className="mt-1">
-              <FontAwesomeIcon icon={faEnvelope} className="mr-1" /> me 'at' razzy.dev
-            </div>
-          </a>
-          <a href="https://linkedin.com/in/felix-razykov" target="_blank" rel="noopener noreferrer">
-            <div className="mt-1">
-              <FontAwesomeIcon icon={faLinkedin} className="mr-1" /> linkedin.com/in/felix-razykov
-            </div>
-          </a>
-          <a href="tel:972544710690">
-            <div className="mt-1">
-              <FontAwesomeIcon icon={faPhone} className="mr-1 rotate-180" /> +972-54-4710690
-            </div>
-          </a>
+          <Tippy content={<span>me@razzy.dev</span>}>
+            <a className="social-link" href="mailto:me@razzy.dev" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faEnvelope} className='mx-1' />
+            </a>
+          </Tippy>
+          <Tippy content={<span>linkedin.com/in/felix-razykov</span>}>
+            <a className="social-link" href="https://linkedin.com/in/felix-razykov" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className='mx-1' />
+            </a>
+          </Tippy>
+          <Tippy content={<span>+972-544710690</span>}>
+            <a className="social-link" href="tel:+972544710690" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faPhone} className="rotate-180 mx-1" />
+            </a>
+          </Tippy>
+          <Tippy content={<span>dev.to/guzzur</span>}>
+            <a className="social-link" href="https://dev.to/guzzur" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faDev} className='mx-1' />
+            </a>
+          </Tippy>
         </div>
 
         <div className="mt-4">

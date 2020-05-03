@@ -133,7 +133,7 @@ Add dashboard sheet, let's call it `dashboard`, and add some charts
 
 - **Data range**: `data!A1:H100`
 - **X-axis**: `Project`
-- **Aggregate**: `true
+- **Aggregate**: `true`
 - **Series**: `Duration`
 
 #### Time per project - column
@@ -142,7 +142,7 @@ Add dashboard sheet, let's call it `dashboard`, and add some charts
 
 - **Data range**: `data!A1:H100`
 - **X-axis**: `Project`
-- **Aggregate**: `true
+- **Aggregate**: `true`
 - **Series**: `Duration`
 
 #### Planned vs actual
@@ -153,7 +153,7 @@ You can add another sheet where you manage your time consumption expectations (w
 
 - **Data range**: `data!A1:H100,planned!A2:B100`
 - **X-axis**: `Project`
-- **Aggregate**: `true
+- **Aggregate**: `true`
 - **Series**: `Duration,Planned`
 
 ## Did I mention that we're hiring?
